@@ -1,10 +1,12 @@
 import React from "react";
-
+import SignUp from "./components/SignUp";
 
 function App() {
-  return <div className="App">
-    <h1></h1>
-  </div>;
+  return (
+    <div className="App">
+      <SignUp />
+    </div>
+  );
 }
 
 export default App;
